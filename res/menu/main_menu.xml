@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mp3player.MainActivity" >
+
+    <item
+        android:id="@+id/details"
+        android:showAsAction="never"
+        android:title="About"/>
+    <item
+        android:id="@+id/settings"
+        android:showAsAction="never"
+        android:title="Settings"/>
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_search_category_default"
+        android:showAsAction="ifRoom"
+        android:title="search"/>
+    <item
+        android:id="@+id/refresh"
+        android:showAsAction="ifRoom"
+        android:title="Refresh"/>
+    <item
+        android:id="@+id/shufmusic"
+        android:showAsAction="ifRoom"
+        android:title="Shuffle"/>
+
+</menu>

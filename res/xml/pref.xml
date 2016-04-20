@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:key="welcometext"
+        android:summary="Enter the name of user"
+        android:title="User Name" />
+
+    <ListPreference
+        android:entries="@array/time_array"
+        android:entryValues="@array/time_array"
+        android:key="stime"
+        android:summary="Closes media after fixed time"
+        android:title="Select time interval" />
+
+        <ListPreference
+        android:entries="@array/skin_array"
+        android:entryValues="@array/skin_array"
+        android:key="skinColor"
+        android:summary="SKin Color"
+        android:title="Select skin color" />
+    
+    
+</PreferenceScreen>

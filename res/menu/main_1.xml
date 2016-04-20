@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mp3player.MainActivity" >
+
+    <item
+        android:id="@+id/playnxtAlbum"
+        android:title="Play Next"/>
+    <item
+        android:id="@+id/shflAlbum"
+        android:title="Shuffle"/>
+
+</menu>

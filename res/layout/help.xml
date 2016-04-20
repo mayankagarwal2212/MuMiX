@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:scrollbars="vertical"
+            android:text="MuMiX is an android application developed for listening to music songs available in user&apos;s mobile phone.\n Contents of this app fills the basic requirement of the user&apos;s.\nIt has been developed for android above API 10.\nYou can set the sleep time for the app and it will automatically close media.\n..............\n\n
+Application Developed By:\n Mayank Agarwal\n\nCurrently B-Tech in Computer Science and Engineering at NIT Jamshedpur"
+            android:textSize="20dip" />
+    </ScrollView>
+
+</LinearLayout>

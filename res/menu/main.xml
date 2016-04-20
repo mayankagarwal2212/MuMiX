@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mp3player.MainActivity" >
+
+    <item
+        android:id="@+id/playnxt"
+        android:title="Play Next"/>
+    <item
+        android:id="@+id/media_info"
+        android:title="Media Information"/>
+    <item
+        android:id="@+id/delete_media"
+        android:title="Delete Song"/>
+    <item
+        android:id="@+id/menu_item_share"
+        android:title="Share via "/>
+
+</menu>
